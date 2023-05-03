@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+main {
+  display: flex;
+  height: calc(100vh - 50px);
+}
+
+textarea {
+  width: 50%;
+  height: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  resize: none;
+}
+
+iframe {
+  width: 50%;
+  height: 100%;
+  border: none;
+}
